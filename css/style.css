@@ -1,0 +1,606 @@
+/*-------------COMMON CSS START--------*/
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    transition: all linear .3s;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*--------------COMMON CSS FOR BUTTONS------------*/
+.buttons {
+    font-size: 20px;
+    color: #444;
+    text-transform: capitalize;
+    background: rgba(199, 199, 199, 0.3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: 1px solid #d1d1d1;
+    transition: all linear .3s;
+}
+
+.buttons:hover {
+    color: #ffe44d !important;
+    background: #7c7b7b;
+}
+
+/*--------------COMMON CSS FOR BUTTONS------------*/
+
+/*-------------COMMON CSS FOR SECTION TITLE------------*/
+.section_title {
+    font-size: 32px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block
+}
+
+.section_title:after {
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 2px;
+    width: 120%;
+    background: #868686;
+}
+
+.section_title:before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #ceb217;
+    box-shadow: 2px 2px 5px #656565;
+    z-index: 1;
+}
+
+/*-------------COMMON CSS FOR SECTION TITLE------------*/
+
+/*-------------COMMON CSS FOR CONTENT TITLE------------*/
+.content_title {
+    font-size: 24px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*-------------COMMON CSS FOR SECTION TITLE------------*/
+
+/*-------------COMMON CSS FOR PARAGRAPH------------*/
+.content_paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #444;
+    text-transform: capitalize;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+/*-------------COMMON CSS FOR PARAGRAPH------------*/
+
+/*---------------COMMON CSS END------------- */
+
+/*-------------PRELOADER PART START----------------------*/
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
+}
+
+#load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-------------PRELOADER PART END----------------------*/
+
+/*---------STICKY HEADER PART-------*/
+.header_bg {
+    background: rgba(82, 82, 82, 0.7);
+}
+
+/*---------STICKY HEADER END-----------*/
+
+/*----------- MAIN MENU PART START----------*/
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #f1f1f1;
+    transition: all linear .3s;
+    padding: 0 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #ffd23d;
+}
+
+/*----------- MAIN MENU PART END----------*/
+
+/*----------- BANNER PART START------------*/
+#banner {
+    background: url(../images/banner/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#banner .banner_overly {
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.banner_item h1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+
+.banner_item h2 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.banner_item h2 span {
+    color: #ffe44d;
+}
+
+.banner_item .buttons {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+/*--------- BANNER PART END -----------------*/
+
+/*-----------ABOUT PART START-----------*/
+#about {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.about_left_item img {
+    height: 350px;
+    width: 200px;
+    border: 3px solid #272727;
+    border-radius: 5px;
+}
+
+.about_right_item {
+    padding-left: 20px;
+}
+
+.about_right_item p {
+    margin-top: 30px;
+}
+
+.education_experience h4 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+    display: inline-block;
+}
+
+.education_experience h4:after {
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 1px;
+    top: 30px;
+    left: 15px;
+    ;
+    background: #ceb217;
+}
+
+.education_text {
+    border-left: 1px dotted #3b3b3b;
+    position: relative;
+    padding: 0 30px;
+}
+
+.education_text img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: -5px;
+    left: -20px;
+}
+
+.education_text h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.education_text p {
+    padding-bottom: 30px;
+}
+
+.experience_part {
+    border-left: 1px dotted #3b3b3b;
+    position: relative;
+    padding: 0 30px;
+}
+
+.experience_text img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: -5px;
+    left: -20px;
+}
+
+.experience_text h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.experience_text p {
+    padding-bottom: 30px;
+}
+
+/*-----------ABOUT PART END -----------*/
+
+/*---------PORTFOIO PART START --------------*/
+#portfolio {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #f1f1f1;
+}
+
+.portfolio_item {
+    padding: 0 30px;
+    margin-top: 70px;
+}
+
+.portfolio_item img {
+    height: 225px;
+    border-radius: 5px;
+    border: 2px solid #999;
+}
+
+.portfolio_item h4 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.portfolio_item h5 {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #3b3b3b;
+}
+
+.portfolio_item p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio_item a img {
+    height: 30px;
+    width: 30px;
+    border: 0;
+}
+
+.portfolio_item a {
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.portfolio_item a:hover {
+    background: #a0a0a0;
+}
+
+#portfolio_mix {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.porfolio_mix_title p {
+    margin-top: 20px;
+}
+.portfolio_button{
+    margin-top: 40px;
+}
+.portfolio_gallery {
+    margin-top: 60px;
+}
+
+.portfolio_gallery {
+    position: relative;
+}
+
+.portfolio_gallery .gal_content .gal_details {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(90, 90, 90, 0.7);
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: all linear .3s;
+    transform: scaleY(0);
+}
+
+.portfolio_gallery .gal_content .gal_details h4 {
+    color: #ff0;
+}
+
+.portfolio_gallery .gal_content .gal_details p {
+    color: #fff;
+}
+
+.portfolio_gallery:hover .gal_content .gal_details {
+    transform: scaleY(1);
+}
+
+/*--------------PORTFOLIO PART END------------*/
+
+/*-------------SKILLS PART------------*/
+#skill {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.skill_content {
+    margin-top: 60px;
+    padding: 30px;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.skill_item h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.skill_item img {
+    height: 128px;
+    width: 128px;
+}
+
+.skill_content:hover {
+    border: 0;
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 3px 3px #cccccc;
+}
+
+#skills_bar{
+    padding-bottom: 100px;
+    
+}
+.skilss_progress{
+    margin-bottom: 50PX;
+}
+.skilss_progress p{
+    margin-top: 25px;
+}
+.progress{
+    margin-top: 20px;
+}
+.progress_right .progress_right_image img{
+    border-radius: 3px;
+    border: 2px solid #919191;
+}
+
+/*-------------SKILLS PART END------------*/
+
+/*---------------HIRE PART START --------------*/
+#hire {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background: #f2f2f2;
+}
+
+.hire_content .buttons {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+/*--------------HIRE PART END---------------*/
+
+/*-----------CLIENTS PART START----------------*/
+#clients{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.clients_content{
+    margin-top: 80px;
+}
+.clients_content img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.clients_content h4{
+    font-size: 20px;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.clients_content h5{
+    font-size: 16px;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.clients_content p{
+    margin-top: 20px;
+}
+
+/*------------CONTACT PART START-----------*/
+#contact {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.contact_left {
+    margin-top: 70px;
+
+}
+
+.contact_left_item .phone {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.contact_left_item h5 {
+    margin-top: 20px;
+
+}
+
+.contact_left_item .mail {
+    display: inline-block;
+}
+
+.map {
+    margin-top: 30px;
+}
+
+.map h4 {
+    margin-bottom: 10px;
+}
+
+.contact_right {
+    margin-top: 70px;
+}
+
+.contact_right h4 {
+    margin-bottom: 50px;
+}
+
+/*-----------CONTACT PART END ------------------*/
+
+/*------------------BACK TO TOP BUTTON---------------*/
+#back_top_button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#back_top_button p a img {
+    height: 40px;
+    width: 40px;
+    background: #d8d8d8;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/*------------------BACK TO TOP BUTTON END---------------*/
+
+/*-------------FOOTER PART END----------------*/
+#footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #6a6a6a;
+}
+
+.footer_content .footer_item .copyright img {
+    height: 15px;
+    width: 15px;
+}
+
+.footer_content .footer_item .copyright span {
+    font-size: 16px;
+    color: #222;
+}
+
+.footer_content .copyright strong {
+    font-size: 16px;
+    color: #0a0a0a;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+}
+
+.footer_content p {
+    font-size: 16px;
+    color: #222;
+    margin-top: 10px;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+}
+
+.footer_content .footer_social a {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.footer_content .footer_social a img {
+    height: 25px;
+    width: 25px;
+
+}
+
+.footer_content .footer_social a:hover {
+    background: #777;
+}
+
+/*-----------------FOOTER PART END---------------*/
