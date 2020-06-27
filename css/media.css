@@ -102,10 +102,10 @@
 	font-size: 15px;
     margin-left: 15px;
 }
-    .nav {
-
-	background: rgba(0, 0, 0, 0.7);
+	           .header_bg,.navbar{
+    background: rgba(0, 0, 0, 0.7) !important;
 }
+
     #about {
 	padding-top: 45px;
 	padding-bottom: 45px;
